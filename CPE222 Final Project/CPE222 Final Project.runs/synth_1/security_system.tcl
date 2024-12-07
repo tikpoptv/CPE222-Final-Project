@@ -73,7 +73,7 @@ set_property ip_output_repo {c:/Users/tikpo/OneDrive/Documents/github/CPE222-Fin
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/CPE222 Final Project/CPE222 Final Project.srcs/sources_1/new/main.v}}
+read_verilog -library xil_defaultlib {{C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/CPE222 Final Project/CPE222 Final Project.srcs/sources_1/new/Top.v}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

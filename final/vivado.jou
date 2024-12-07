@@ -1,0 +1,280 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Dec  8 03:29:56 2024
+# Process ID         : 17624
+# Current directory  : C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent6120 C:\Users\tikpo\OneDrive\Documents\github\CPE222-Final-Project\final\final.xpr
+# Log file           : C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/vivado.log
+# Journal file       : C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final\vivado.jou
+# Running On         : DESKTOP-RDVATL1
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 2700 Eight-Core Processor          
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 17099 MB
+# Swap memory        : 23622 MB
+# Total Virtual      : 40721 MB
+# Available Virtual  : 29333 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_seg_display.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_seg_display.v
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_divider.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_divider.v
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_seg_decoder.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_seg_decoder.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_time.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_time.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_time_tb.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_time_tb.v
+update_compile_order -fileset sources_1
+remove_files  C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/clock_time_tb.v
+file mkdir C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new/clock_time_tb.v w ]
+add_files -fileset sim_1 C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new/clock_time_tb.v
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+remove_files  -fileset sim_1 C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new/clock_time_tb.v
+file delete -force C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new/clock_time_tb.v
+remove_files  -fileset sim_1 C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sim_1/new/clock_time_tb.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+remove_files  {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/combined_digital_clock.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/frequency_divider.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_segment_display.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/time_manager.v}
+file delete -force C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/combined_digital_clock.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/frequency_divider.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_segment_display.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/time_manager.v
+remove_files  {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/combined_digital_clock.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/frequency_divider.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/seven_segment_display.v C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/time_manager.v}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close [ open C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/multiplexing_clock.v w ]
+add_files C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/sources_1/new/multiplexing_clock.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
