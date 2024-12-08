@@ -3900,3 +3900,1000 @@ dismissDialog("Program Device"); // aT (dialog155)
 // Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
 // Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
 dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 97 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 647, 312); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_property -dict { PACKAGE_PIN U17"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 447, 185); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_property -dict { PACKAGE_PIN R2"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("Basys-3-Master-2022.xdc", 570, 133); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 519, 129); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 519, 129, false, false, false, false, true); // ae (Basys-3-Master-2022.xdc) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 537, 122); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 537, 122, false, false, false, false, true); // ae (Basys-3-Master-2022.xdc) - Double Click
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Tcl Message: reorder_files -fileset constrs_1 -before C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/Basys-3-Master-2022.xdc C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/Basys-3-Master-2022.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 466, 236); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_property -dict { PACKAGE_PIN W19"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("Basys-3-Master-2022.xdc", 702, 194); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("security_system.v", 152, 109); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:26m:39s
+selectCodeEditor("security_system.v", 410, 264); // ae (security_system.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:26m:43s
+selectCodeEditor("security_system.v", 427, 263); // ae (security_system.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clock_time"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("security_system.v", 70, 301); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:26m:55s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:26m:57s
+selectCodeEditor("security_system.v", 68, 383); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:27m:03s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:27m:05s
+// Elapsed time: 22 seconds
+selectCodeEditor("security_system.v", 109, 265); // ae (security_system.v)
+selectCodeEditor("security_system.v", 109, 265, false, false, false, false, true); // ae (security_system.v) - Double Click
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 386, 270); // ae (security_system.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_mode"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 28 seconds
+selectCodeEditor("security_system.v", 64, 433); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 217, 279); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:07s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:09s
+selectCodeEditor("security_system.v", 91, 244); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:15s
+selectCodeEditor("security_system.v", 110, 335); // ae (security_system.v)
+selectCodeEditor("security_system.v", 110, 335, false, false, false, false, true); // ae (security_system.v) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:19s
+// Elapsed time: 14 seconds
+selectCodeEditor("security_system.v", 541, 230); // ae (security_system.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ire [4:0] hours;"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("security_system.v", 177, 99); // ae (security_system.v)
+selectCodeEditor("security_system.v", 169, 89); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:39s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:41s
+selectCodeEditor("security_system.v", 216, 273); // ae (security_system.v)
+selectCodeEditor("security_system.v", 186, 366); // ae (security_system.v)
+selectCodeEditor("security_system.v", 186, 366, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (main_system.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (main_system.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("clock_time.v", 257, 171); // ae (clock_time.v)
+typeControlKey((HResource) null, "clock_time.v", 'v'); // ae (clock_time.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:28m:59s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:29m:01s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog156)
+// [GUI Memory]: 371 MB (+5598kb) [03:29:54]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog157)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:01:09 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:01:09 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 105 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log"); // a (PAResourceCommand.PACommandNames_LOG_WINDOW)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog158)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 621, 57); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 73 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ai (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ai (PAResourceItoN.MainMenuMgr_WINDOW, Window)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ai (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ai (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // an (RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, Custom Commands)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // aq (RDIResourceCommand.RDICommands_SETTINGS, settings_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2588 ms.
+// Elapsed time: 18 seconds
+dismissDialog("Settings"); // e (dialog159)
+// [GUI Memory]: 411 MB (+23199kb) [03:34:32]
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 332, 260); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_property -dict { PACKAGE_PIN V15"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 11 seconds
+selectCodeEditor("Basys-3-Master-2022.xdc", 548, 177); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 548, 177, false, false, false, false, true); // ae (Basys-3-Master-2022.xdc) - Double Click
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v), dec0 : seven_seg_decoder (seven_seg_decoder.v)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v), dec0 : seven_seg_decoder (seven_seg_decoder.v)]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), display : seven_seg_display (seven_seg_display.v)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("security_system.v", 387, 252); // ae (security_system.v)
+selectCodeEditor("security_system.v", 140, 268); // ae (security_system.v)
+// Elapsed time: 56 seconds
+selectMenuItem(RDIResource.FilterCheckBox_SHOW_ONLY, "Show (194) Only"); // aq (RDIResource.FilterCheckBox_SHOW_ONLY, Show (194) Only)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true, false, false, false, true, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Popup Trigger - Node
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 1); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, impl_1]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 1, true, true, false, false, false, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Shift Key - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true, true, false, false, false, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Shift Key - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 1, true, false, false, false, true, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Popup Trigger - Node
+// Elapsed time: 24 seconds
+selectCodeEditor("security_system.v", 506, 277); // ae (security_system.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clock", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 25 seconds
+selectCodeEditor("security_system.v", 87, 197); // ae (security_system.v)
+selectCodeEditor("security_system.v", 69, 299); // ae (security_system.v)
+selectCodeEditor("security_system.v", 27, 142, true, false, false, false, false); // ae (security_system.v) - Shift Key
+selectCodeEditor("security_system.v", 194, 86); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 23, 112); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 366, 113); // ae (security_system.v)
+selectCodeEditor("security_system.v", 362, 113, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectCodeEditor("security_system.v", 27, 109); // ae (security_system.v)
+selectCodeEditor("security_system.v", 27, 109, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectCodeEditor("security_system.v", 344, 115); // ae (security_system.v)
+selectCodeEditor("security_system.v", 358, 109); // ae (security_system.v)
+selectCodeEditor("security_system.v", 84, 150); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 296, 464); // ae (security_system.v)
+selectCodeEditor("security_system.v", 290, 483); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 85, 193); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("security_system.v", 178, 283); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("security_system.v", 108, 155); // ae (security_system.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:37m:54s
+selectCodeEditor("security_system.v", 12, 129, true, false, false, false, false); // ae (security_system.v) - Shift Key
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:37m:56s
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:38m:00s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:38m:04s
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("clock_time.v", 377, 240); // ae (clock_time.v)
+typeControlKey((HResource) null, "clock_time.v", 'c'); // ae (clock_time.v)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog160)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog161)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:10:41 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:10:41 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 45 seconds
+selectCodeEditor("clock_time.v", 908, 355); // ae (clock_time.v)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 73 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog162)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 761, 202); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 28 seconds
+selectCodeEditor("clock_time.v", 363, 173); // ae (clock_time.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dig1", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("security_system.v", 176, 81); // ae (security_system.v)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "dig1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 19 seconds
+selectCodeEditor("security_system.v", 428, 212); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 166, 211); // ae (security_system.v)
+selectCodeEditor("security_system.v", 59, 232); // ae (security_system.v)
+selectCodeEditor("security_system.v", 102, 228); // ae (security_system.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,051 MB. GUI used memory: 297 MB. Current time: 12/8/24, 7:13:50 AM ICT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:41m:52s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:41m:56s
+// Elapsed time: 12 seconds
+selectCodeEditor("security_system.v", 158, 213); // ae (security_system.v)
+selectCodeEditor("security_system.v", 176, 195); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 172, 214); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("security_system.v", 100, 267); // ae (security_system.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:42m:06s
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:42m:10s
+// Elapsed time: 17 seconds
+selectCodeEditor("security_system.v", 61, 211); // ae (security_system.v)
+selectCodeEditor("security_system.v", 59, 259); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 29, 251); // ae (security_system.v)
+selectCodeEditor("security_system.v", 268, 203); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:42m:30s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:42m:32s
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 333, 240); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 591, 278); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 513, 229); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 504, 93); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 624, 242); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 385, 233); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys-3-Master-2022.xdc", 618, 181); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+// Elapsed time: 66 seconds
+selectCodeEditor("Basys-3-Master-2022.xdc", 738, 306); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 0, 176); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog163)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog164)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:16:29 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:16:29 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 71 seconds
+selectCodeEditor("Basys-3-Master-2022.xdc", 504, 101); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "T1"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("Basys-3-Master-2022.xdc", 496, 302); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 509, 180); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 434, 180); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 424, 298); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 418, 298); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 436, 179); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 435, 195); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 608, 304); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 437, 181); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 473, 194); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 602, 297); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("Basys-3-Master-2022.xdc", 436, 178); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog165)
+selectCodeEditor("Basys-3-Master-2022.xdc", 607, 296); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 435, 181); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 570, 194); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 433, 214); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 435, 230); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 6, 181); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 587, 175); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 608, 322); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 427, 109); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 612, 109); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 452, 138); // ae (Basys-3-Master-2022.xdc)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Basys-3-Master-2022.xdc", 628, 196); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 588, 213); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 623, 252); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog166)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog167)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:19:19 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:19:19 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 124 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog168)
+selectCodeEditor("Basys-3-Master-2022.xdc", 573, 248); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 309, 267); // ae (Basys-3-Master-2022.xdc)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_system.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("main_system.v", 303, 276); // ae (main_system.v)
+typeControlKey((HResource) null, "main_system.v", 'c'); // ae (main_system.v)
+// Elapsed time: 25 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 242, 86); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 18 seconds
+selectCodeEditor("main_system.v", 449, 335); // ae (main_system.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master-2022.xdc", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_system.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("main_system.v", 395, 190); // ae (main_system.v)
+typeControlKey((HResource) null, "main_system.v", 'v'); // ae (main_system.v)
+selectCodeEditor("main_system.v", 225, 198); // ae (main_system.v)
+selectCodeEditor("main_system.v", 411, 288); // ae (main_system.v)
+selectCodeEditor("main_system.v", 184, 148); // ae (main_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_system.v", 319, 188); // ae (main_system.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:50m:50s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:50m:52s
+// Elapsed time: 12 seconds
+selectCodeEditor("main_system.v", 1049, 280); // ae (main_system.v)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clk or posedge rst) begin"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("main_system.v", 258, 145); // ae (main_system.v)
+// Elapsed time: 18 seconds
+selectCodeEditor("main_system.v", 248, 259); // ae (main_system.v)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "always @(posedge clk or posedge rst) begin"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("main_system.v", 426, 229); // ae (main_system.v)
+selectCodeEditor("main_system.v", 438, 230); // ae (main_system.v)
+typeControlKey((HResource) null, "main_system.v", 'v'); // ae (main_system.v)
+selectCodeEditor("main_system.v", 433, 296); // ae (main_system.v)
+selectCodeEditor("main_system.v", 503, 316); // ae (main_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:51m:54s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:51m:56s
+selectCodeEditor("main_system.v", 255, 212); // ae (main_system.v)
+typeControlKey((HResource) null, "main_system.v", 'v'); // ae (main_system.v)
+selectCodeEditor("main_system.v", 443, 215); // ae (main_system.v)
+selectCodeEditor("main_system.v", 20, 165); // ae (main_system.v)
+selectCodeEditor("main_system.v", 403, 213, true, false, false, false, false); // ae (main_system.v) - Shift Key
+selectCodeEditor("main_system.v", 188, 206); // ae (main_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:52m:04s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog169)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog170)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:24:08 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:24:08 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:52m:10s
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 284, 149); // ae (Basys-3-Master-2022.xdc)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "set_property -dict { PACKAGE_PIN W5"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("Basys-3-Master-2022.xdc", 391, 40); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 50 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog171)
+selectCodeEditor("security_system.v", 158, 204); // ae (security_system.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_system.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("main_system.v", 306, 163); // ae (main_system.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:54m:18s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:54m:22s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("clock_time.v", 141, 141); // ae (clock_time.v)
+selectCodeEditor("clock_time.v", 358, 172); // ae (clock_time.v)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:54m:35s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:54m:38s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), clk_div : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), mux_clk : multiplexing_clock (multiplexing_clock.v)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 66 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("security_system.v", 30, 167); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+selectCodeEditor("security_system.v", 345, 275); // ae (security_system.v)
+selectCodeEditor("security_system.v", 192, 162); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 40 seconds
+selectCodeEditor("security_system.v", 156, 278); // ae (security_system.v)
+selectCodeEditor("security_system.v", 58, 56); // ae (security_system.v)
+selectCodeEditor("security_system.v", 516, 164, true, false, false, false, false); // ae (security_system.v) - Shift Key
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 50 seconds
+selectCodeEditor("security_system.v", 106, 162); // ae (security_system.v)
+selectCodeEditor("security_system.v", 106, 162, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectCodeEditor("security_system.v", 128, 285); // ae (security_system.v)
+selectCodeEditor("security_system.v", 128, 285, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectCodeEditor("security_system.v", 105, 296); // ae (security_system.v)
+selectCodeEditor("security_system.v", 105, 296, false, false, false, false, true); // ae (security_system.v) - Double Click
+selectCodeEditor("security_system.v", 70, 296); // ae (security_system.v)
+selectCodeEditor("security_system.v", 70, 296, false, false, false, false, true); // ae (security_system.v) - Double Click
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 36 seconds
+selectCodeEditor("security_system.v", 59, 261); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+typeControlKey(null, null, 'z');
+// Elapsed time: 23 seconds
+selectCodeEditor("security_system.v", 48, 268); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'v'); // ae (security_system.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:58m:59s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03h:59m:01s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_NO, "No", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_NO)
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog172)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog173)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:31:05 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:31:06 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 154 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog174)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 590, 133); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 29 seconds
+selectCodeEditor("security_system.v", 27, 145); // ae (security_system.v)
+selectCodeEditor("security_system.v", 111, 120); // ae (security_system.v)
+selectCodeEditor("security_system.v", 111, 119, false, false, false, false, true); // ae (security_system.v) - Double Click
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 26 seconds
+selectCodeEditor("security_system.v", 20, 265); // ae (security_system.v)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog175)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // u (dialog176)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:02m:59s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // cP (dialog177)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  8 07:35:00 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:35:00 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bh (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:03m:03s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 63 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v), time_keeper : clock_time (clock_time.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog178)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 691, 57); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 43 seconds
+selectCodeEditor("security_system.v", 251, 120); // ae (security_system.v)
+typeControlKey((HResource) null, "security_system.v", 'c'); // ae (security_system.v)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 46, 57); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 2, 201); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'c'); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 4, 124); // ae (Basys-3-Master-2022.xdc)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+typeControlKey((HResource) null, "Basys-3-Master-2022.xdc", 'v'); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog179)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog180)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:38:29 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:38:29 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 127 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Implementation Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Implementation Failed"); // W.a (dialog181)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 452, 95); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // B (PAResourceItoN.LogMonitor_MONITOR, Monitor)
+// Elapsed time: 19 seconds
+selectCodeEditor("Basys-3-Master-2022.xdc", 197, 204); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 204, 160); // ae (Basys-3-Master-2022.xdc)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("security_system.v", 135, 173); // ae (security_system.v)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:09m:23s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04h:09m:25s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 19, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog182)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.srcs/utils_1/imports/synth_1/main_system.dcp with file C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/security_clock_system.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog183)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec  8 07:41:30 2024] Launched synth_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/synth_1/runme.log [Sun Dec  8 07:41:30 2024] Launched impl_1... Run output will be captured here: C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 93 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_system.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "seven_seg_decoder.v", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "security_system.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_system.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master-2022.xdc", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,051 MB. GUI used memory: 307 MB. Current time: 12/8/24, 7:43:50 AM ICT
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 87 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog184)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 22, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // aq (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog185)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/tikpo/OneDrive/Documents/github/CPE222-Final-Project/final/final.runs/impl_1/security_clock_system.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 39 seconds
+selectCodeEditor("security_system.v", 264, 112); // ae (security_system.v)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 9, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 7, 320); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 10, 333); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 8, 348); // ae (Basys-3-Master-2022.xdc)
+selectCodeEditor("Basys-3-Master-2022.xdc", 7, 370); // ae (Basys-3-Master-2022.xdc)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, security_clock_system (security_system.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 86 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master-2022.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Basys-3-Master-2022.xdc", 418, 180); // ae (Basys-3-Master-2022.xdc)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sw[2]"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)

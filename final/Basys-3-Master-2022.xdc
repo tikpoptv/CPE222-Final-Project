@@ -23,16 +23,19 @@ set_property -dict { PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports {code_sw
 set_property -dict { PACKAGE_PIN V2    IOSTANDARD LVCMOS33 } [get_ports {code_sw[2]}]
 set_property -dict { PACKAGE_PIN T3    IOSTANDARD LVCMOS33 } [get_ports {code_sw[3]}]
 
-#set_property -dict { PACKAGE_PIN R3    IOSTANDARD LVCMOS33 } [get_ports {sw[11]}]
-#set_property -dict { PACKAGE_PIN W2    IOSTANDARD LVCMOS33 } [get_ports {sw[12]}]
-#set_property -dict { PACKAGE_PIN U1    IOSTANDARD LVCMOS33 } [get_ports {sw[13]}]
-#set_property -dict { PACKAGE_PIN T1    IOSTANDARD LVCMOS33 } [get_ports {sw[14]}]
-set_property -dict { PACKAGE_PIN R2   IOSTANDARD LVCMOS33 } [get_ports set_mode]   # สวิตช์ R2
+#set_property -dict { PACKAGE_PIN R3    IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]
+#set_property -dict { PACKAGE_PIN W2    IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]]
+#set_property -dict { PACKAGE_PIN U1    IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]
+#set_property -dict { PACKAGE_PIN T1    IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]
+set_property -dict { PACKAGE_PIN R2   IOSTANDARD LVCMOS33 } [get_ports r2_switch]   # สวิตช์ R2
 
-set_property -dict { PACKAGE_PIN T18  IOSTANDARD LVCMOS33 } [get_ports inc_hour]  # ปุ่มเพิ่มชั่วโมง
-set_property -dict { PACKAGE_PIN U17  IOSTANDARD LVCMOS33 } [get_ports dec_hour]  # ปุ่มลดชั่วโมง
-set_property -dict { PACKAGE_PIN T17  IOSTANDARD LVCMOS33 } [get_ports inc_minute] # ปุ่มเพิ่มนาที
-set_property -dict { PACKAGE_PIN W19  IOSTANDARD LVCMOS33 } [get_ports dec_minute] # ปุ่มลดนาที
+## ปุ่ม T18, U17, T17, W19
+set_property -dict { PACKAGE_PIN T18  IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]
+set_property -dict { PACKAGE_PIN U17  IOSTANDARD LVCMOS33 } [get_ports {up_button[1]}]
+set_property -dict { PACKAGE_PIN T17  IOSTANDARD LVCMOS33 } [get_ports {up_button[2]}]
+set_property -dict { PACKAGE_PIN W19  IOSTANDARD LVCMOS33 } [get_ports {up_button[3]}]
+
+#set_property -dict { PACKAGE_PIN U18  IOSTANDARD LVCMOS33 } [get_ports {up_button[4]}]
 
 
 ## LEDs
@@ -53,11 +56,6 @@ set_property -dict { PACKAGE_PIN N3    IOSTANDARD LVCMOS33 } [get_ports {led[13]
 set_property -dict { PACKAGE_PIN P1    IOSTANDARD LVCMOS33 } [get_ports {led[14]}]
 set_property -dict { PACKAGE_PIN L1    IOSTANDARD LVCMOS33 } [get_ports {led[15]}]
 
-## ปุ่ม T18, U17, T17, W19
-set_property -dict { PACKAGE_PIN T18  IOSTANDARD LVCMOS33 } [get_ports {up_button[0]}]
-set_property -dict { PACKAGE_PIN U17  IOSTANDARD LVCMOS33 } [get_ports {up_button[1]}]
-set_property -dict { PACKAGE_PIN T17  IOSTANDARD LVCMOS33 } [get_ports {up_button[2]}]
-set_property -dict { PACKAGE_PIN W19  IOSTANDARD LVCMOS33 } [get_ports {up_button[3]}]
 
 
 ##7 Segment Display
