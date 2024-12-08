@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sun Dec  8 08:49:03 2024
+| Date         : Sun Dec  8 11:41:12 2024
 | Host         : DESKTOP-RDVATL1 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file security_clock_system_control_sets_placed.rpt
 | Design       : security_clock_system
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |     7 |
-|    Minimum number of control sets                        |     7 |
+| Total control sets                                       |    10 |
+|    Minimum number of control sets                        |    10 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    13 |
+| Unused register locations in slices containing registers |    27 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,11 +39,11 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |     7 |
+| Total control sets |    10 |
 | >= 0 to < 4        |     0 |
-| >= 4 to < 6        |     1 |
-| >= 6 to < 8        |     4 |
-| >= 8 to < 10       |     0 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     5 |
+| >= 8 to < 10       |     1 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
@@ -59,10 +59,10 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               0 |            0 |
-| No           | No                    | Yes                    |              65 |           24 |
+| No           | No                    | Yes                    |              90 |           30 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               7 |            6 |
-| Yes          | No                    | Yes                    |              51 |           15 |
+| Yes          | No                    | No                     |               7 |            5 |
+| Yes          | No                    | Yes                    |              60 |           19 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -73,13 +73,16 @@ Table of Contents
 +------------------+--------------------------------+------------------+------------------+----------------+--------------+
 |   Clock Signal   |          Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +------------------+--------------------------------+------------------+------------------+----------------+--------------+
-|  clk_div/CLK     | time_keeper/hours[4]_i_1_n_0   | reset_IBUF       |                2 |              5 |         2.50 |
+|  clk_div/CLK     | time_keeper/hours_0            | reset_IBUF       |                2 |              5 |         2.50 |
+|  clock_IBUF_BUFG | alarm_hours                    | reset_IBUF       |                1 |              5 |         5.00 |
+|  mux_clk/CLK     |                                | reset_IBUF       |                3 |              6 |         2.00 |
 |  clk_div/CLK     |                                | reset_IBUF       |                2 |              6 |         3.00 |
 |  clk_div/CLK     | time_keeper/minutes[5]_i_1_n_0 | reset_IBUF       |                2 |              6 |         3.00 |
-|  mux_clk/CLK     |                                | reset_IBUF       |                2 |              6 |         3.00 |
-|  mux_clk/CLK     | display/seg[6]_i_1_n_0         |                  |                6 |              7 |         1.17 |
-|  clock_IBUF_BUFG | buzzer_i_1_n_0                 | reset_IBUF       |               11 |             40 |         3.64 |
-|  clock_IBUF_BUFG |                                | reset_IBUF       |               20 |             53 |         2.65 |
+|  clock_IBUF_BUFG | alarm_minutes0                 | reset_IBUF       |                2 |              6 |         3.00 |
+|  mux_clk/CLK     | display/seg[6]_i_1_n_0         |                  |                5 |              7 |         1.40 |
+|  clock_IBUF_BUFG | led[15]_i_1_n_0                | reset_IBUF       |                2 |              9 |         4.50 |
+|  clock_IBUF_BUFG | led_ext[3]_i_1_n_0             | reset_IBUF       |               10 |             29 |         2.90 |
+|  clock_IBUF_BUFG |                                | reset_IBUF       |               25 |             78 |         3.12 |
 +------------------+--------------------------------+------------------+------------------+----------------+--------------+
 
 
